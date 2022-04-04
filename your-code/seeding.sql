@@ -12,11 +12,11 @@ VALUES ('4', 'DAM41UDN3CHU2WVF6', 'Volvo', 'V60', '2019-00-00', 'Gray' );
 INSERT INTO cars (`ID_cars`, `VIN`, `manufacturer`, `model`, `year`, `color`)
 VALUES ('5', 'DAM41UDN3CHU2WVF6', 'Volvo', 'V60 Cross Country', '2019-00-00', 'Gray' );
 
-INSERT INTO customers (`ID_customer`, `name`, `phone number`,`adress`, `email`, `city`, `state`,`country`,`zip`)
+INSERT INTO customers (`ID_customer`, `name`, `phone number`,`email`, `adress`, `city`, `state`,`country`,`zip`)
 VALUES ('0', 'Pablo Picasso', '+34 636 17 63 82','-','Paseo de la Chopera, 14', 'Madrid', 'Madrid','Spain', 28045) ;
-INSERT INTO customers (`ID_customer`, `name`, `phone number`,`adress`, `email`, `city`, `state`,`country`,`zip`)
+INSERT INTO customers (`ID_customer`, `name`, `phone number`,`email`, `adress`, `city`, `state`,`country`,`zip`)
 VALUES ('1', 'Hedy Lamarr', '+43 1 51444225','-' ,'Weiglgasse 10', 'Viena', 'Vienna','Austria', '1150');
-INSERT INTO customers (`ID_customer`, `name`, `phone number`,`adress`, `email`, `city`, `state`,`country`,`zip`)
+INSERT INTO customers (`ID_customer`, `name`, `phone number`,`email`, `adress`, `city`, `state`,`country`,`zip`)
 VALUES ('2', 'Katherine Johnson', '+1 202 358 0000','-' ,'300 E St SW', 'Washington, DC', 'Washington','United States','20546');
 
 INSERT INTO salespersons (`staff_ID`,`name`,`store`)
@@ -36,13 +36,12 @@ VALUES ('6', 'Walter Melon', 'Amsterdam') ;
 INSERT INTO salespersons (`staff_ID`,`name`,`store`)
 VALUES ('7', 'Shonda Leer', 'São Paulo') ;
 
-
 INSERT INTO invoices (`ID_invoices`,`date`,`Cars_ID_cars`,`Customers_ID_customer`,`Salespersons_staff_ID`)
-VALUES ('0', '22-08-2018', '0','1','3') ;
+VALUES ('0', '2018-08-22', '0','1','3') ;
 INSERT INTO invoices (`ID_invoices`,`date`,`Cars_ID_cars`,`Customers_ID_customer`,`Salespersons_staff_ID`)
-VALUES ('1', '22-08-2018', '3','0','5') ;
+VALUES ('1', '2018-08-22', '3','0','5') ;
 INSERT INTO invoices (`ID_invoices`,`date`,`Cars_ID_cars`,`Customers_ID_customer`,`Salespersons_staff_ID`)
-VALUES ('2', '22-08-2018', '2','2','7') ;
+VALUES ('2', '2018-08-22', '2','2','7') ;
 
 
 
