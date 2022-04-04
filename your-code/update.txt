@@ -1,0 +1,8 @@
+UPDATE salespersons SET Store = 'Miami'
+    WHERE (Store = 'Mimia' AND ID = 4);
+
+UPDATE customers SET Email = 'ppicasso@gmail.com'
+    WHERE (Name = 'Pablo Picasso' AND ID = 0);
+
+UPDATE customers SET Email = 'lamarr_hd@hollywood.com'
+    WHERE (Name = 'Hedy Lamarr' AND ID = 1);
