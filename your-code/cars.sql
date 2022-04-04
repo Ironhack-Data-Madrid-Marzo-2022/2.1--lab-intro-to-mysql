@@ -16,8 +16,16 @@ INSERT INTO salespersons (staff_ID,name,store) VALUES ('00004','Gail Forcewind',
 INSERT INTO salespersons (staff_ID,name,store) VALUES ('00005','Paige Turner','Mimia');
 INSERT INTO salespersons (staff_ID,name,store) VALUES ('00006','Bob Frapples','Mexico City');
 INSERT INTO salespersons (staff_ID,name,store) VALUES ('00007','Walter Melon','Amsterdam');
-INSERT INTO salespersons (staff_ID,name,store) VALUES ('00008','Shonda Leer','São Paulo');
+INSERT INTO salespersons (staff_ID,name,store) VALUES ('00008','Shonda Leer','SÃ£o Paulo');
 
 INSERT INTO invoices (invoice_number,date,car,customer,salesperson) VALUES ('852399038','2018-08-22','0','1','3');
 INSERT INTO invoices (invoice_number,date,car,customer,salesperson) VALUES ('731166526','2018-12-31','3','0','5');
 INSERT INTO invoices (invoice_number,date,car,customer,salesperson) VALUES ('271135104','2019-01-22','2','2','7');
+
+UPDATE salespersons SET store='Miami' where staff_ID='00005'
+
+SELECT * FROM salespersons;
+
+UPDATE customers SET email='ppicasso@gmail.com' where Customer_ID='10001';
+UPDATE customers SET email='lamarr_hd@hollywood.com' where Customer_ID='20001';
+UPDATE customers SET email='hello@nasa.gov' where Customer_ID='30001';
