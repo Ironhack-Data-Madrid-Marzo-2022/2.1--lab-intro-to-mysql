@@ -1,1 +1,1 @@
-delete from cars where id=12;
+delete from cars where vin='DAM41UDN3CHU2WVF7';

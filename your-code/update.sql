@@ -1,4 +1,4 @@
-update salespesons SET store='Miami'
+update salespersons SET store='Miami'
 where id=5;
 
 update customers SET email= 'ppicasso@gmail.com' where id=0;
